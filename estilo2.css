@@ -1,6 +1,6 @@
 :root {
-    --color-texto: #949494;
-    --color-boton: #0f395c;
+    --color-texto: #fafa1e;
+    --color-boton: #e4e4e4;
     --fuente-principal: 'Atomic-Age', sans-serif;
 }
 
@@ -13,4 +13,45 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuente-principal);
+    color: var(--color-texto);
+}
+
+imagenUsuario{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+form {
+    background: rgb(98, 1, 1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(117, 115, 115, 0.3);
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 2px;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 0);   
+}
+
+button {
+    background-color: var(--color-boton);
+    color: rgb(234, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 253);
 }
