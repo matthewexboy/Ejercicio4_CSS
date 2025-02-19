@@ -1,0 +1,16 @@
+:root {
+    --color-texto: #949494;
+    --color-boton: #0f395c;
+    --fuente-principal: 'Atomic-Age', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://preview.redd.it/kingdom-come-deliverance-ii-wallpaper-4k-v0-jsbmsu9vf1be1.png?auto=webp&s=4c4427eed6d99cf6ee64b58e4bc9521214d8047d);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
